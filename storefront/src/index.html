@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+<style>
+      body {background-color: rgb(146, 227, 241);}
+      h1   {color: blue;}
+      p    {color: red;}
+
+      svg {
+        animation-name: rotate;
+        animation-timing-function: ease;
+        animation-duration: 4s; /* Adjust duration as needed */
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+      
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); 
+  }
+  100% {
+    transform: rotate(360deg); 
+  }
+}
+
+</style>
+
+  </head>
+  <body>
+    <center>
+    <h1>Amini Enterprises</h1>
+    <p>Welcome to Amini Enterprises</p>
+    <div class="logo">
+      <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="grey" stroke-width="6.3" fill="orange" />
+        <circle cx="50" cy="50" r="20" stroke="green" stroke-width="7.5" fill="void"/>
+        <rect x="10" y="10" width="40" height="40" 
+        style="fill:blue;stroke:rgb(19, 3, 49);stroke-width:5;fill-opacity:0.1;stroke-opacity:0.9" />
+        />
+      </svg>
+    </center>
+    </div>
+  </body>
+</html>
